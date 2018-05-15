@@ -1,0 +1,101 @@
+.top-container {
+    /*
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    width: 600px;
+    height: 100px;
+    border: solid 1px blue;
+    */
+    height:100px;
+    position: relative;
+}
+
+.scroller
+{
+    position: absolute;
+    width: 30px;
+    height: 100%;
+}
+
+.scroller-left
+{
+    left:0;
+    background: url("../images/arrow-left.png") no-repeat center;
+}
+
+.scroller-right
+{
+    right:0;
+    background: url("../images/arrow-right.png") no-repeat center;
+}
+
+
+.arrow-left
+{
+
+    border-right: solid 1px green;
+    background-color: beige;
+}
+
+.arrow-right
+{
+    position: absolute;
+
+    width: 20px;
+    border-left: solid 1px green;
+    height: 100%;
+    /*background-color: beige; */
+    /*
+    background-image: url("images/arrow-right.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    */
+
+}
+.container-body
+{
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    height: 100%;
+}
+
+
+
+
+.win-div
+{
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    vertical-align: center;
+}
+
+
+.behind-div
+{
+    font-size: x-large;
+    position: absolute;
+    /*right: 50px;*/
+    margin-top: 10px;
+    white-space: nowrap;
+
+}
+
+.fake-kpi:last-of-type
+{
+    margin-right:15px;
+}
+
+.fake-kpi
+{
+    margin-left: 15px;
+    width: 100px;
+    height: 80px;
+    border: solid 1px black;
+    background-color: ghostwhite;
+    display: inline-block;
+    text-align: center;
+    line-height: 80px;
+}
